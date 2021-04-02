@@ -12,7 +12,7 @@ require (
 	github.com/jcmturner/gokrb5/v8 v8.4.2
 	github.com/json-iterator/go v1.1.10
 	github.com/minio/cli v1.22.0
-	github.com/minio/minio v0.0.0-20210331163854-04840b97ad44
+	github.com/minio/minio v0.0.0-20210402153751-635e843228e7
 	github.com/minio/minio-go/v7 v7.0.11-0.20210302210017-6ae69c73ce78
 	google.golang.org/api v0.5.0
 )
