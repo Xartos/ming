@@ -468,7 +468,7 @@ func (l *s3Objects) PutObject(ctx context.Context, bucket string, object string,
 	}
 	putOpts := miniogo.PutObjectOptions{
 		UserMetadata:         opts.UserDefined,
-		ServerSideEncryption: opts.ServerSideEncryption,
+		ServerSideEncryption: nil,
 		UserTags:             tagMap,
 	}
 	ui, err := l.Client.PutObject(ctx, bucket, object, data, data.Size(), data.MD5Base64String(), data.SHA256HexString(), putOpts)
